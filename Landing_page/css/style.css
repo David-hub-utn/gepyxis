@@ -1,0 +1,205 @@
+body{
+    background-color: #9bd6e2;
+
+    font-family: Helvetica, Helvetica Neue, Arial, sans-serif;
+}
+.dos{
+    background-color: #29ABE2;
+    height: 365px;
+    align-content:center;
+    
+}
+
+.anuncio1{
+    background-color: transparent;
+    box-shadow: none;
+    position: relative;
+    font-family: Helvetica, Helvetica Neue, Arial, sans-serif;
+    line-height: 50px;
+    text-shadow: 3px 3px 4px rgba(0,0,0,0.48);
+    text-align: center;
+    font-size: 42px;
+}
+.formulario1 {
+    background-image: url(../img/madera2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: -65px;
+    border-radius: 25px;
+    font-family: Georgia, Palatino, Palatino Linotype, Times, Times New Roman, serif;
+    padding-left: 157px;
+    position: absolute;
+    right: 10px;
+    top: 60px;
+}
+
+.form-control {
+    display: block;
+    width: 90%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #F2F2F2;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 15px;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+
+}
+.promo{
+    font-family: source-sans-pro, sans-serif
+    background-color: transparent;
+    box-shadow: none;
+    position: relative;
+    text-align: center;
+    color: #fff
+}
+.promo2{
+    font-family: source-sans-pro, sans-serif
+    background-color: transparent;
+    box-shadow: none;
+    position: relative;
+    text-align: center;
+    color: black;
+}
+
+.tam{
+    font-family: source-sans-pro, sans-serif
+    background-color: transparent;
+    box-shadow: none;
+    position: relative;
+    line-height: 50px;
+    text-align: center;
+    font-size: 70px;
+    color: #fff
+}
+.imagen2{
+   background-repeat: no-repeat;
+    position: relative;
+    top: -1px;
+    right: -10px;
+
+}
+.vinculo{
+   
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 29px;
+    right: 0px;
+}
+
+
+
+.vinculo1{
+ 
+    background-color: #29ABE2;
+    border-radius: 10px;
+    position: relative;
+    min-height: 0;
+    line-height: 33px;
+    font-family: Georgia, Palatino, Palatino Linotype, Times, Times New Roman, serif;
+    text-align: center;
+    font-size: 22px;
+    top: 142px;
+    right: -458px;
+    margin-right: 343px;
+}
+
+.social{
+    padding-left: 50px;
+}
+
+
+.portal {
+    font-family: Georgia, Palatino, Palatino Linotype, Times, Times New Roman, serif;
+    color: black;
+    text-shadow: 3px 3px 8px rgba(0,0,0,0.47);
+    font-size: 27px;   
+}
+.mail {
+    font-family: Georgia, Palatino, Palatino Linotype, Times, Times New Roman, serif;
+    color: #FFFFFF;
+    text-shadow: 0px 0px 6px rgba(0,0,0,0.42), 0px 0px 6px rgba(0,0,0,0.42);
+    box-shadow: none;
+    top: -61px;
+}
+
+
+.p {
+    display: block;
+}
+.logo1F{
+    text-align-last: center;
+    position: absolute;
+    border-radius: 25px;
+    left: 0;
+    margin-top: -87px;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+.centrar{
+    text-align: center;
+}
+
+  @media screen and (max-width: 992px){  
+    .uno{
+        height: 500px
+    }
+    .dos{
+            top: 1250px;
+    } 
+    .formulario1 {
+        background-image: url(../img/madera2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: -65px;
+    border-radius: 25px;
+    font-family: Georgia, Palatino, Palatino Linotype, Times, Times New Roman, serif;
+    position: absolute;
+    top: 400px;
+
+    }
+}
+
+ 
+
+@media screen and (max-width: 600px) { 
+    .formulario1 {
+        background-image: url(../img/madera2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: -65px;
+    border-radius: 25px;
+    font-family: Georgia, Palatino, Palatino Linotype, Times, Times New Roman, serif;
+    padding-left: 140px;
+    position: absolute;
+    top: 450px;
+
+    }
+    .uno{
+        height: 900px;
+    }
+    .dos{
+             top: 1250px;
+    } 
+    .logo1F{
+    text-align-last: center;
+    border: solid;
+    position: absolute;
+    border-radius: 25px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+    
+
+}
